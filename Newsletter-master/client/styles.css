@@ -1,0 +1,68 @@
+body{
+    background-color: #1aa7bc;
+}
+#form{
+    position: absolute;
+width: 536px;
+height: 575px;
+left: calc(50% - 536px/2);
+top: 60px;
+border: 0.5px solid #000000;
+background:#4ADede;
+border-radius: 54px;
+stroke: black 10px;
+}
+#name{
+    position: absolute;
+width: 455px;
+height: 86px;
+left: calc(50% - 455px/2 - 0.5px);
+top: 119px;
+text-align: center;
+font-size: 200%;
+border: 2px solid #000000;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 58px;
+background: #FFFFFF;
+border-radius: 58px;
+}
+#email{
+    position: absolute;
+    text-align: center;
+font-size: 200%;
+width: 455px;
+height: 86px;
+left: calc(50% - 455px/2 - 0.5px);
+top: 261px;
+border: 2px solid #000000;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 58px;
+background:FFFFFF;
+border-radius: 58px;
+}
+#submit{
+    position: absolute;
+width: 220px;
+height: 62px;
+left: calc(50% - 220px/2);
+top: 465px;
+text-align: center;
+font-size: 150%;
+background:FFFFFF;
+border-radius: 89px;
+border: 2px solid #000000;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#submit:hover{
+    background-color: rgb(201, 197, 197);
+}
+#form:hover{
+    border: 0.5px solid #000000;
+box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+}
+#name:hover{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#email:hover{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
